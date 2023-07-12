@@ -1,0 +1,12 @@
+# Writing all output to: I:\MABAKI BAKI\PROJECT 2022-2023 MASTER\COLLEGES\2022-2023\PCB's\DIT\MAIN PROJECT\RAHMA - WATER LEAKAGE DETECTION\SECOND\ares.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
